@@ -1,0 +1,19 @@
+server.port=8081
+spring.application.name=XXXXXXXXXXX-query-service
+spring.h2.console.enabled=true
+spring.jpa.show-sql=true
+spring.datasource.url=jdbc:h2:mem:XXXXXXXXXXXdb
+
+
+server.port=8080
+spring.application.name=XXXXXXXXXXX-command-service
+
+
+import lombok.*;
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
+@Builder
+@Entity
